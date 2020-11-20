@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="item10.BubbleSortTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-20T08:07:53" hostname="isanghun-ui-MacBook-Pro.local" time="0.003">
+  <properties/>
+  <testcase name="bubbleSortAscending" classname="item10.BubbleSortTest" time="0.003"/>
+  <testcase name="bubbleSortDescending" classname="item10.BubbleSortTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
