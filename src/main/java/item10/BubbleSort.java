@@ -11,6 +11,9 @@ public class BubbleSort {
         return bbubbleSort(arr, true);
     }
     public static int[] bbubbleSort(int[] arr, boolean isAscending) {
+        if (arr == null) {
+            return null;
+        }
         bubbleSort(arr, arr.length - 1, isAscending);
         return arr;
     }
