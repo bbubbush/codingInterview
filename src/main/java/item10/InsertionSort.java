@@ -2,8 +2,13 @@ package item10;
 
 public class InsertionSort {
 
-
-    public static int[] insertionSort(int[] arr) {
+    /**
+     * Name: insertionSort
+     * Date: 2020/11/24
+     * Info:
+     *  외부에서 요청할 삽입정렬을 구현
+     */
+    public static int[] insertionSort(final int[] arr) {
         for (int i = 1; i < arr.length; i++) {
             int tempValue = arr[i];
             int j;
@@ -18,7 +23,7 @@ public class InsertionSort {
         return arr;
     }
 
-    public static void printArray(int[] arr) {
+    public static void printArray(final int[] arr) {
         for (int value: arr) {
             System.out.print(value + " ");
         }
